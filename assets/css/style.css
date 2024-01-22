@@ -11,14 +11,17 @@
   display: flex;
   align-items: center;
 }
+
 .banner img{
   margin:auto;
   width: 50%;
   height: 50vh;
 }
+
 .bannerlogo img{
   width: 20vw;
 }
+
 link{
   display: flex;
   align-items: end;
@@ -29,13 +32,16 @@ link{
   text-align:justify;
   text-justify:inter-word;
 }
+
 header {
   color: #767ff6;
   text-align: left;
 }
+
 .header3{
   color:rgb(128, 200, 20);
 }
+
 .page-header{
   display: flex;
   align-items: center;
@@ -50,6 +56,7 @@ header {
   align-items: center;
   width: 100%;
 }
+
 /* Table specification */
 table, th, td{
   border-collapse: collapse;
@@ -80,6 +87,7 @@ td img{
   width: 70%;
   padding:10px;
 }
+
 /* List of submission deadline in table  */
 .left-content table{
   border:none !important;
@@ -88,6 +96,7 @@ td img{
   width:30%;
   padding: 10px;
 }
+
 /* table containing the submission deadline and conference date  */
 .right-content table, .right-content td{
   border:1px solid;
@@ -132,6 +141,7 @@ td img{
 
   width: 20vw;
 }
+
 /* Footer specification */
 footer {
   background-color: #333;
@@ -214,6 +224,7 @@ footer {
       display: none;
   }
 }
+
 /* The list of previous years' link */
 .links{
   list-style: none;
