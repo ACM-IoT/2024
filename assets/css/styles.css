@@ -7,6 +7,10 @@
     color: var(--color-text);
 }
 
+.coming-soon {
+    font-size: 40px;
+}
+
 .link {
     color: var(--color-text);
     text-decoration: none;
