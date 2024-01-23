@@ -12,12 +12,11 @@
 }
 
 .link {
-    color: var(--color-text);
+    color: var(--color-main);
     text-decoration: none;
 }
 
 .link:hover {
-    color: var(--color-main);
     text-decoration: underline;
 }
 
@@ -99,6 +98,25 @@
 
 .list-previous-editions > li {
     padding-bottom: 10px;
+}
+
+.text-block, .text-list {
+    text-align: justify;
+}
+
+.tbl-paper-dates {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-spacing: 5px;
+}
+
+.tbl-paper-dates > tbody > tr > td {
+    vertical-align: top;
+    padding-bottom: 5px;
+}
+
+.tbl-paper-dates > tbody > tr > td:last-child {
+    padding-left: 25px;
 }
 
 footer {
