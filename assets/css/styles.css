@@ -13,11 +13,35 @@
 }
 
 .main-content {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    text-align: justify;
 }
 
 .coming-soon {
     font-size: 40px;
+}
+
+.construction {
+    margin: 50px 0;
+    font-size: 15px;
+}
+
+.construction > div {
+    text-align: center;
+}
+
+.construction > div:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 5px;
+    content: "\f7d9";
+}
+
+.construction > div:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-left: 5px;
+    content: "\f7d9";
 }
 
 .link {
