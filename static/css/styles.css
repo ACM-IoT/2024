@@ -44,16 +44,16 @@
     content: "\f7d9";
 }
 
-.link, .mail-link {
+.link, .mail-link, .uni-link {
     color: var(--color-main);
     text-decoration: none;
 }
 
-.link:hover, .mail-link:hover {
+.link:hover, .mail-link:hover, .uni-link:hover {
     text-decoration: underline;
 }
 
-.link:active, .mail-link:active {
+.link:active, .mail-link:active, .uni-link:active {
     color: var(--color-accent);
 }
 
