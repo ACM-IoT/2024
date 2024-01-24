@@ -44,16 +44,16 @@
     content: "\f7d9";
 }
 
-.link {
+.link, .mail-link {
     color: var(--color-main);
     text-decoration: none;
 }
 
-.link:hover {
+.link:hover, .mail-link:hover {
     text-decoration: underline;
 }
 
-.link:active {
+.link:active, .mail-link:active {
     color: var(--color-accent);
 }
 
@@ -175,6 +175,11 @@
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+
+.chair-list {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 footer {
