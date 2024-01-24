@@ -12,6 +12,10 @@
     color: var(--color-text);
 }
 
+.main-content {
+    margin-bottom: 50px;
+}
+
 .coming-soon {
     font-size: 40px;
 }
