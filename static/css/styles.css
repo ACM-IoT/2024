@@ -67,19 +67,27 @@
     text-align: justify;
 }
 
-.tbl-paper-dates {
-    margin-left: 15px;
+.tbl-dates {
+    width: 100%;
     margin-bottom: 15px;
     border-spacing: 5px;
 }
 
-.tbl-paper-dates > tbody > tr > td {
+.tbl-dates > tbody > tr > td {
     vertical-align: top;
     padding-bottom: 5px;
+    text-align: left;
 }
 
-.tbl-paper-dates > tbody > tr > td:last-child {
-    padding-left: 25px;
+.tbl-dates > tbody > tr > td:first-child{
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.tbl-dates > tbody > tr > td:last-child {
+    width: 60%;
+    padding-right: 15px;
+    text-align: justify;
 }
 
 .venue-img {
