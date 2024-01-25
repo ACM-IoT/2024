@@ -67,6 +67,10 @@
     text-align: justify;
 }
 
+.tbl-info-key {
+    font-weight: 600;
+}
+
 .tbl-dates {
     width: 100%;
     margin-bottom: 15px;
